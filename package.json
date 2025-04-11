@@ -1,0 +1,13 @@
+{
+  "name": "node-starter",
+  "private": true,
+  "scripts": {
+    "build:lib": "rm -rf ./dist && tsdown"
+  },
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.3",
+    "tsdown": "^0.6.10",
+    "vite": "^6.2.6"
+  }
+}
